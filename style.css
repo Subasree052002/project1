@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Nunito', sans-serif;
+}
+P{
+    text-align: center;
+    padding: 50px;
+}
+
+:root {
+     --bg-color:#19362c;
+     --snd-bg-color: rgb(117, 131, 53);
+     --text-color:black;
+     --main-color: hsl(98, 88%, 65%);
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body {
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+section {
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background: var(--bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    color: white;
+}
+
+
+
+
+
+.logo {
+    font-size: 2.5rem;
+    color:white;
+    font-weight: 700;
+    cursor: default;
+    
+}
+
+.navbar a {
+    font-size: 1.5rem;
+    color: var(--text-color);
+    margin-left: 4rem;
+    font-weight: 700;
+    color:white;
+}
+
+.navbar a:hover{
+    
+        color: #fff; /* Change text color on hover */
+        background-color: #8eade3; /* Background color on hover */
+        border-radius: 4px; /* Add rounded corners */
+    }
+
+.navbar a.active {
+    color: var(--text-color);
+}
+
+#menu-icon {
+    font-size: 3.6rem;
+    color: var(--text-color);
+    display: none;
+}
+* {
+    box-sizing: border-box;
+  }
+
+.column {
+    float: left;
+    padding: 10px;
+    height: 600px; /* Should be removed. Only for demonstration */
+  }
+  
+  .left {
+    width: 30%;
+  }
+  
+  .right {
+    width: 70%;
+    font-size: 2.5rem;
+    color: #e8f0f6;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH0ltAxrmnPZoXeh9p38FmEPwLtWicB5U0dQ&s');
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .button {
+    border: none;
+    color:black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+     
+  }
+  .button:hover{
+    background-color: aqua;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+
+
+   
+  
+  /* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    color: var(--text-color);
+     
+    background: var(--bg-color);
+  }
